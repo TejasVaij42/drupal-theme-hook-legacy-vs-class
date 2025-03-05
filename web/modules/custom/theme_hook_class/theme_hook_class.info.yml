@@ -1,0 +1,5 @@
+name: 'Theme Hook Class'
+type: module
+description: 'Demonstrates theme hook implementation using class-based approach in Drupal 11.'
+core_version_requirement: ^11
+package: Custom

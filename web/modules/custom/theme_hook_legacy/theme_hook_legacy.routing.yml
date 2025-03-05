@@ -1,0 +1,15 @@
+theme_hook_legacy.profile_legacy:
+  path: '/theme-hook-legacy/profile'
+  defaults:
+    _controller: '\Drupal\theme_hook_legacy\Controller\ThemeHookLegacyController::showProfileLegacy'
+    _title: 'User Profile (Legacy)'
+  requirements:
+    _permission: 'access content'
+
+theme_hook_legacy.welcome:
+  path: '/theme-hook-legacy/welcome'
+  defaults:
+    _controller: '\Drupal\theme_hook_legacy\Controller\ThemeHookLegacyController::showWelcomeLegacy'
+    _title: 'Welcome Message (Legacy)'
+  requirements:
+    _permission: 'access content'

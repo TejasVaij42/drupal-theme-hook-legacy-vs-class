@@ -1,0 +1,4 @@
+services:
+  theme_hook_class.hook:
+    class: 'Drupal\theme_hook_class\Hook\ThemeHookClass'
+    autowire: 'true'

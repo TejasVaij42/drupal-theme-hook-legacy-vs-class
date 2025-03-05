@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function theme_hook_legacy_theme($existing, $type, $theme, $path) {
+  return [
+    'user_profile_legacy' => [
+      'variables' => [
+        'username' => '',
+        'user_role' => '',
+        'join_date' => '',
+        'bio' => '',
+      ],
+    ],
+    'welcome_message_legacy' => [
+      'variables' => [
+        'greeting' => '',
+      ],
+    ],
+  ];
+}

@@ -1,0 +1,15 @@
+theme_hook_class.profile:
+  path: '/theme-hook-class/profile'
+  defaults:
+    _controller: 'Drupal\theme_hook_class\Controller\ThemeHookClassController::showProfileClass'
+    _title: 'User Profile (Class-Based)'
+  requirements:
+    _permission: 'access content'
+
+theme_hook_class.welcome:
+  path: '/theme-hook-class/welcome'
+  defaults:
+    _controller: 'Drupal\theme_hook_class\Controller\ThemeHookClassController::showWelcomeClass'
+    _title: 'Welcome Message (Class-Based)'
+  requirements:
+    _permission: 'access content'
